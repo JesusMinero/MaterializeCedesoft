@@ -40,13 +40,56 @@
   <h5 class="header col s12 light">Un centro de  Desarrollo de Software dentro del ITSN</h5>
   </div>
   <div class="row center">
-  <a href="" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Registra tu solicitud</a>
+    <!-- Modal Trigger -->
+  <a id="download-button"  class="btn-large waves-effect waves-light btn modal-trigger" href="#modal1">Registra tu solicitud</a>
   </div>
   </div>
   </div>
   <div class="parallax"><img src="./assets/images/hawaii.jpg" alt="Unsplashed background img 1"></div>
   </div>
   <!-- /Seccion 1 -->
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Solicitud</h4>
+    <form class="col s12">
+      <div class="row">
+      <div class="input-field col s6">
+      <input id="first_name" type="text" class="validate">
+      <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s6">
+      <input id="last_name" type="text" class="validate">
+      <label for="last_name">Last Name</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s12 m6">
+      <input id="telefono" type="text" class="validate">
+      <label for="telefono">Telefono</label>
+      </div>
+      <div class="input-field col s12 m6">
+      <input id="email" type="text" class="validate">
+      <label for="email">Email</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s12">
+      <i class="material-icons prefix">mode_edit</i>
+      <textarea id="icon_prefix2"  class="materialize-textarea"></textarea>
+      <label for="icon_prefix2">Describe las funcionalidades básicas:</label>
+      </div>
+      </div>
+      </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+<!-- /Modal Trigger -->
+
+
   <!-- Seccion 2 quienes somos -->
 <div id="quienesSomos" class="container">
   <div class="section">
